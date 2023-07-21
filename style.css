@@ -1286,7 +1286,7 @@ select {
 
   /* .for mobile view page */
 
-  @media only screen and (max-width:450px){
+  @media only screen and (min-width: 300px) and (max-width:450px){
     
     body{
       background-color: white;
@@ -1756,10 +1756,9 @@ select {
   border-radius: 10px;
   width: 100%;
   position: fixed;
-  top: 2%;
+  top: 0%;
     z-index: 15;
-
-    height: 83vh;
+    height: 85vh;
    
  
 }
